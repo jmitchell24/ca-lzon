@@ -10,8 +10,12 @@
         <loc>https://lzon.ca/posts/</loc>
     </url>
     <url>
-        <loc>https://lzon.ca/posts/gratitude/</loc>
+        <loc>https://lzon.ca/posts/daily-grateful-1/</loc>
         <lastmod>2025-12-23</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/gratitude/</loc>
+        <lastmod>2025-01-17</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/page/1/</loc>
@@ -20,16 +24,8 @@
         <loc>https://lzon.ca/posts/page/2/</loc>
     </url>
     <url>
-        <loc>https://lzon.ca/posts/post-2024-12-18/</loc>
+        <loc>https://lzon.ca/posts/precarity/</loc>
         <lastmod>2024-12-18</lastmod>
-    </url>
-    <url>
-        <loc>https://lzon.ca/posts/post-2025-01-17/</loc>
-        <lastmod>2025-01-17</lastmod>
-    </url>
-    <url>
-        <loc>https://lzon.ca/posts/post-2025-11-24/</loc>
-        <lastmod>2025-11-24</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/recipes/</loc>
@@ -105,6 +101,10 @@
     <url>
         <loc>https://lzon.ca/posts/recipes/zucchini-pizza-caserole/</loc>
         <lastmod>2025-03-20</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/twenty-five/</loc>
+        <lastmod>2025-11-24</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/tags/</loc>
