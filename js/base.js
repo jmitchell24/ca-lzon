@@ -78,10 +78,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // fallback to automatic rotating quote if a dated quote is not found 
     if (!selectedQuote) { 
+        function getQuoteArray() {
+            console.log("mood: " + autoQuoteMood); 
+            if (autoQuoteMood == "stark") return starkQuoteArray; 
+            if (autoQuoteMood == "fun") return funQuoteArray; 
+            return autoQuoteArray; 
+        }
+
         const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
         const seed = dayOfYear * 9301 + 49297;
-        const randomIndex = seed % autoQuoteArray.length;
-        selectedQuote = autoQuoteArray[randomIndex];
+        const quoteArray = getQuoteArray()
+        const randomIndex = seed % quoteArray.length;
+
+        selectedQuote = quoteArray[randomIndex];
 
         console.log("Automatic Rotating Quote: \n" + selectedQuote.text); 
     } else { 
