@@ -10,24 +10,27 @@
         <loc>https://lzon.ca/posts/</loc>
     </url>
     <url>
-        <loc>https://lzon.ca/posts/daily-grateful-1/</loc>
+        <loc>https://lzon.ca/posts/daily/</loc>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/daily/chip-nuts/</loc>
+        <lastmod>2025-12-27</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/daily/driving/</loc>
+        <lastmod>2025-12-27</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/daily/lzon/</loc>
         <lastmod>2025-12-23</lastmod>
     </url>
     <url>
-        <loc>https://lzon.ca/posts/daily-grateful-2/</loc>
+        <loc>https://lzon.ca/posts/daily/riegelein-lady-bugs/</loc>
         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-        <loc>https://lzon.ca/posts/daily-grateful-3/</loc>
+        <loc>https://lzon.ca/posts/daily/tomatoes-and-bread/</loc>
         <lastmod>2025-12-25</lastmod>
-    </url>
-    <url>
-        <loc>https://lzon.ca/posts/daily-grateful-4/</loc>
-        <lastmod>2025-12-27</lastmod>
-    </url>
-    <url>
-        <loc>https://lzon.ca/posts/daily-grateful-5/</loc>
-        <lastmod>2025-12-27</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/gratitude/</loc>
@@ -57,10 +60,6 @@
     <url>
         <loc>https://lzon.ca/posts/recipes/baked-curry-pork/</loc>
         <lastmod>2024-09-08</lastmod>
-    </url>
-    <url>
-        <loc>https://lzon.ca/posts/recipes/baked-jollof-rice/</loc>
-        <lastmod>2024-09-22</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/recipes/baked-lemon-pepper-pork/</loc>
@@ -97,6 +96,10 @@
     <url>
         <loc>https://lzon.ca/posts/recipes/ginger-pork-stir-fry/</loc>
         <lastmod>2024-09-09</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/recipes/jollof-baked-rice/</loc>
+        <lastmod>2024-09-22</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/recipes/jollof-meat-filling/</loc>

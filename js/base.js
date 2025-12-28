@@ -16,42 +16,14 @@ _paq.push(['enableLinkTracking']);
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const footerButton = document.querySelector("footer-button"); 
-    const popupButton = document.querySelector("body-overlay-popup-button"); 
-    const bodyOverlay = document.querySelector("body-overlay"); 
-    const bodyOverlayPopup = document.querySelector("body-overlay-popup");
-
-    function openPopup() { 
-        bodyOverlay.style.display = "flex"; 
-        bodyOverlay.classList.add("overlay-is-open"); 
-        document.body.classList.add("overlay-is-open"); 
-    }
-
-    function closePopup() { 
-        bodyOverlay.style.display = "none";
-        bodyOverlay.classList.remove("overlay-is-open"); 
-        document.body.classList.remove("overlay-is-open"); 
-    }
-
-    // openPopup(); 
-
-    bodyOverlayPopup.addEventListener('click', () => { 
-
-    }); 
-    
-    bodyOverlay.addEventListener("click", (e) => { 
-        if (e.target === bodyOverlay) { 
-            closePopup(); 
+    const settingsOverlay = document.querySelector("x-settings-overlay"); 
+    settingsOverlay.addEventListener("click", (e) => { 
+        if (e.target === settingsOverlay) { 
+            history.back(); 
+            console.log("overlay click"); 
         }
     });
-
-    popupButton.addEventListener("click", (e) => { 
-        closePopup(); 
-    });
-
-    footerButton.addEventListener("click", () => {
-        openPopup();  
-    });
+    
 });
 
 /// Theme List 
