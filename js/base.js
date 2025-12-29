@@ -45,9 +45,24 @@ document.addEventListener('DOMContentLoaded', () => {
         );
     }
 
-    function updatePageThemeMode(mode) { 
+    function updatePageThemeMode(mode, animate) { 
         pageThemeMode = mode; 
         localStorage.setItem("theme-mode", mode); 
+
+        if (animate) {
+            document.body.classList.add("animate-everything"); 
+        }
+            
+
+        if (mode == "dark") document.body.setAttribute("data-dark-mode", "on"); 
+        if (mode == "light") document.body.setAttribute("data-dark-mode", "off"); 
+
+        if (animate) { 
+            setTimeout(() => {
+                document.body.classList.remove("animate-everything"); 
+            }, 500);
+        }
+        
     }
 
     function updateThemeItems() { 
@@ -69,16 +84,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     themeItemLight.addEventListener("click", (e) => {
-        updatePageThemeMode("light"); 
+        updatePageThemeMode("light", true); 
         updateThemeMode();
     });
 
     themeItemDark.addEventListener("click", (e) => { 
-        updatePageThemeMode("dark"); 
+        updatePageThemeMode("dark", true); 
         updateThemeMode(); 
     });
 
     updateThemeItems();
+    updatePageThemeMode(pageThemeMode, false); 
+
     updateThemeMode(); 
     updatePageHueIndex(pageHueIndex);
 }); 
