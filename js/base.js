@@ -31,30 +31,55 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
 
     let pageHueIndex = parseInt(localStorage.getItem("theme-hue-index") ?? "0"); 
-    const themeItems = document.querySelectorAll("theme-item");
+    let pageThemeMode = localStorage.getItem("theme-mode") ?? "dark";
+
+    const themeItemsColor = document.querySelectorAll('x-theme-color-item');
+    const themeItemDark = document.querySelector("x-theme-dark-item"); 
+    const themeItemLight = document.querySelector("x-theme-light-item"); 
 
     function updatePageHueIndex(idx) { 
         pageHueIndex = idx; 
         localStorage.setItem("theme-hue-index", idx); 
         document.documentElement.style.setProperty("--color-primary-hue", 
-            themeItems[pageHueIndex].getAttribute("data-hue")
+            themeItemsColor[pageHueIndex].getAttribute("data-hue")
         );
     }
 
+    function updatePageThemeMode(mode) { 
+        pageThemeMode = mode; 
+        localStorage.setItem("theme-mode", mode); 
+    }
+
     function updateThemeItems() { 
-        themeItems.forEach((it, idx) => {
+        themeItemsColor.forEach((it, idx) => {
             it.setAttribute("data-active", idx == pageHueIndex ? "true" : "false"); 
         });
     }
 
-    themeItems.forEach((it, idx) => { 
+    function updateThemeMode() { 
+        themeItemDark.setAttribute("data-active", pageThemeMode == "dark" ? "true" : "false"); 
+        themeItemLight.setAttribute("data-active", pageThemeMode == "light" ? "true" : "false"); 
+    }
+
+    themeItemsColor.forEach((it, idx) => { 
         it.addEventListener("click", (e) => { 
             updatePageHueIndex(idx);      
             updateThemeItems(); 
         });
     });
 
+    themeItemLight.addEventListener("click", (e) => {
+        updatePageThemeMode("light"); 
+        updateThemeMode();
+    });
+
+    themeItemDark.addEventListener("click", (e) => { 
+        updatePageThemeMode("dark"); 
+        updateThemeMode(); 
+    });
+
     updateThemeItems();
+    updateThemeMode(); 
     updatePageHueIndex(pageHueIndex);
 }); 
 
