@@ -57,6 +57,10 @@
         <loc>https://lzon.ca/posts/misc/</loc>
     </url>
     <url>
+        <loc>https://lzon.ca/posts/misc/2025-review-ai/</loc>
+        <lastmod>2026-01-02</lastmod>
+    </url>
+    <url>
         <loc>https://lzon.ca/posts/misc/2025-review-gaming/</loc>
         <lastmod>2026-01-01</lastmod>
     </url>
@@ -175,6 +179,9 @@
     </url>
     <url>
         <loc>https://lzon.ca/tags/</loc>
+    </url>
+    <url>
+        <loc>https://lzon.ca/tags/2025-review/</loc>
     </url>
     <url>
         <loc>https://lzon.ca/tags/daily-grateful/</loc>
