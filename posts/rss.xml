@@ -7,7 +7,16 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://lzon.ca/posts/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>What is emailverification.info?</title>
+          <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://lzon.ca/posts/site/emailverification-info/</link>
+          <guid>https://lzon.ca/posts/site/emailverification-info/</guid>
+          <description xml:base="https://lzon.ca/posts/site/emailverification-info/">&lt;p&gt;Have you ever recieved an email from this address? Here’s why it might not actually be a scam. &lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Year in Review 2025 - AI</title>
           <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
