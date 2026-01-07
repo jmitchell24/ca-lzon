@@ -7,7 +7,16 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://lzon.ca/posts/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>PSA for emailverification.info</title>
+          <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://lzon.ca/posts/site/emailverification-info-psa/</link>
+          <guid>https://lzon.ca/posts/site/emailverification-info-psa/</guid>
+          <description xml:base="https://lzon.ca/posts/site/emailverification-info-psa/">&lt;p&gt;Have you recieved emails from noreploy@emailverification.info after purchasing a domain? It is NOT a scam, and here I’ll explain why. &lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>What is emailverification.info?</title>
           <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
