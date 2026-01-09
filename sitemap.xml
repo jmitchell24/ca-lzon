@@ -120,6 +120,9 @@
         <loc>https://lzon.ca/posts/page/6/</loc>
     </url>
     <url>
+        <loc>https://lzon.ca/posts/page/7/</loc>
+    </url>
+    <url>
         <loc>https://lzon.ca/posts/recipes/</loc>
     </url>
     <url>
@@ -208,6 +211,18 @@
     </url>
     <url>
         <loc>https://lzon.ca/posts/site/</loc>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/site/digital-sketching-raylib/</loc>
+        <lastmod>2026-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/site/digital-sketching-webgl/</loc>
+        <lastmod>2026-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://lzon.ca/posts/site/digital-sketching/</loc>
+        <lastmod>2026-01-09</lastmod>
     </url>
     <url>
         <loc>https://lzon.ca/posts/site/emailverification-info/</loc>

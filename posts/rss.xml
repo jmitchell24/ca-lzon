@@ -7,7 +7,34 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://lzon.ca/posts/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Digital Sketching - Raylib</title>
+          <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://lzon.ca/posts/site/digital-sketching-raylib/</link>
+          <guid>https://lzon.ca/posts/site/digital-sketching-raylib/</guid>
+          <description xml:base="https://lzon.ca/posts/site/digital-sketching-raylib/">&lt;p&gt;A demo of a ‘digital sketch’ using a Raylib-based C++ program compiled to WASM. &lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Digital Sketching - WebGL</title>
+          <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://lzon.ca/posts/site/digital-sketching-webgl/</link>
+          <guid>https://lzon.ca/posts/site/digital-sketching-webgl/</guid>
+          <description xml:base="https://lzon.ca/posts/site/digital-sketching-webgl/">&lt;p&gt;A demo of a ‘digital sketch’ using WebGL with GLSL shaders. &lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Digital Sketching - Overview</title>
+          <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://lzon.ca/posts/site/digital-sketching/</link>
+          <guid>https://lzon.ca/posts/site/digital-sketching/</guid>
+          <description xml:base="https://lzon.ca/posts/site/digital-sketching/">&lt;p&gt;Exploring some ideas for how to create digital sketches for lzon.ca. &lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Dream Trawler</title>
           <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
