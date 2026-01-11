@@ -53,7 +53,7 @@ class Lzon {
         } else { 
             // Detect monitor refresh rate
             this.detectRefreshRate().then(rate => {
-                this.desiredFrameRate = Math.floor(rate / 60) * 60;;
+                this.desiredFrameRate = rate;
                 frameRate(this.desiredFrameRate);
                 console.log('Detected Framerate:', this.desiredFrameRate, 'Hz');
             });
